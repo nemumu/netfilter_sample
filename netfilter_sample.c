@@ -3,7 +3,7 @@
  */
 #include <linux/module.h>
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPLv2");
 
 static int kit_init(void){
 	printk(KERN_INFO "Netfilter Sample module init");
